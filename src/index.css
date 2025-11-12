@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+button {
+  cursor: pointer;
+}
+
+/* 👇 добавляем слой base, чтобы Tailwind применил @apply корректно */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply leading-tight align-middle;
+  }
+}
