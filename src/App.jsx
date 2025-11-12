@@ -12,6 +12,8 @@ import {
   Facebook,
   Instagram,
 } from "lucide-react";
+import UFKLogo from './assets/UFK.png';
+
 
 // Translations
 const translations = {
@@ -568,7 +570,7 @@ const App = () => {
                   }}
                 >
                   <img
-                    src="/UFKS2-01.svg"
+                    src={UFKLogo}
                     alt="UFK Study"
                     className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
                   />
