@@ -12,7 +12,7 @@ import {
   Facebook,
   Instagram,
 } from "lucide-react";
-import UFKLogo from './assets/UFK.png';
+import UFKLogo from "./assets/UFK.png";
 
 
 // Translations
